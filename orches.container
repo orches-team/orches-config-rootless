@@ -11,6 +11,9 @@ Mount=type=bind,source=/run/user/%U/systemd,destination=/run/user/%U/systemd,rw=
 UserNS=keep-id
 PodmanArgs=--pid host
 
+[Service]
+Restart=always
+
 [Install]
 WantedBy=multi-user.target
 

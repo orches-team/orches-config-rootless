@@ -2,7 +2,7 @@
 Description=Caddy demo container
 
 [Container]
-Image=docker.io/library/caddy:2.10.2-alpine
+Image=docker.io/library/caddy:2.11.1-alpine
 PublishPort=8080:80
 
 [Install]
